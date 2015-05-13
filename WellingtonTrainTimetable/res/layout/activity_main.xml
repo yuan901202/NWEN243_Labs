@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<Spinner
+    	android:id="@+id/mode_spinner"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/mode_prompt"/>
+
+	<Spinner
+    	android:id="@+id/route_spinner"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/route_prompt"/>
+
+	<Spinner
+    	android:id="@+id/direction_spinner"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/direction_prompt"/>
+
+    <Button
+        android:id="@+id/buttonUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timetable_search" />
+
+    <Button
+        android:id="@+id/add_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_bookmark" />
+
+    <Spinner
+    	android:id="@+id/bookmark_spinner"
+    	android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/bookmark_prompt"/>
+
+    <Button
+        android:id="@+id/show_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show" />
+
+    <Button
+        android:id="@+id/delete_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete" />
+
+</LinearLayout>

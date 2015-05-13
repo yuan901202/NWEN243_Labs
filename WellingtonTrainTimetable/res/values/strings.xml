@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wellington Train Timetable</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mode_prompt">Choose a mode</string>
+    <string name="route_prompt">Choose a route</string>
+    <string name="direction_prompt">Choose a direction</string>
+    <string name="timetable_search">Search Timetable</string>
+    <string name="title_activity_web_view">Wellington Timetable</string>
+    <string name="add_to_bookmark">Add timetable to bookmark</string>
+    <string name="bookmark_prompt">Choose your bookmark</string>
+    <string name="show">Check bookmark</string>
+    <string name="delete">Delete bookmark</string>
+
+</resources>
