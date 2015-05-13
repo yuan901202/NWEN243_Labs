@@ -14,3 +14,6 @@ This Andriod app is based on the Metlink, which is belongs to Greater Wellington
 
 ## Notes:
 apk is provided, feel free download it and test it. Thanks.
+
+## Data collected:
+All data was collected from http://www.metlink.org.nz
